@@ -6,6 +6,10 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Search from './components/Search';
 import Selects from './components/Selects';
+import ParaOne from './components/ParaOne';
+import ParaTwo from './components/ParaTwo';
+import ParaThree from './components/ParaThree';
+import ParaFour from './components/ParaFour';
 
 function App() {
   return (
@@ -13,9 +17,12 @@ function App() {
       <Navbar />
       <Hero />
       <Destinations />
-      <Search />
+      <ParaOne />
+      <ParaTwo />
+      <ParaThree />
+      <ParaFour />
       <Selects />
-      <Carousel />
+      <Search />
       <Footer />
     </div>
   );

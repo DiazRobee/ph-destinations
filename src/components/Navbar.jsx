@@ -10,6 +10,7 @@ import {
   FaPinterest,
   FaYoutube,
 } from 'react-icons/fa';
+import {Link} from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,16 +21,28 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
+    <div className='flex w-full fixed justify-between items-center h-20 px-4 z-10 text-gray-100 bg-teal-500'>
       <div>
-        <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>PH Tourism</h1>
+        <Link to="home" smooth={true} duration={500} activeClass='active' spy='true'>
+          <h1>PH Tours</h1>
+          </Link>
       </div>
-      <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
+      <ul className='hidden md:flex '>
+        <li>
+          <Link to="home" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
+                  Home
+          </Link>
+        </li>
+        <li>
+          <Link to="selects" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
+                  Destinations
+            </Link>
+        </li>
+        <li>
+          <Link to="book" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
+                Book
+          </Link>
+        </li>
       </ul>
       <div className='hidden md:flex px-4'>
         <BsPerson size={20} />
@@ -41,18 +54,28 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu dropdown */}
-      <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
-        <ul>
-          <h1>PH Tourism</h1>
-          <li className='border-b'>Home</li>
-          <li className='border-b'>Destinations</li>
-          <li className='border-b'>Travel</li>
-          <li className='border-b'>View</li>
-          <li className='border-b'>Book</li>
-          <div className='flex flex-col'>
+      <div onClick={handleNav} className={nav ? 'absolute md:hidden text-black left-0 top-0 w-full h-screen bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
+        <h1>PH Tours</h1>
+        <ul className='my-10'>
+          <li className='border-b'>
+            <Link to="home" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
+                    Home
+            </Link>
+          </li>
+          <li className='border-b'>
+          <Link to="selects" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
+                  Destinations
+          </Link>
+          </li>
+          <li className='border-b'>
+          <Link to="book" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
+                Book
+          </Link>
+          </li>
+          <div className='flex flex-col max-w-[200px] mx-auto mt-20'>
             <button>Account</button>
           </div>
-          <div className='flex justify-between my-6'>
+          <div className='flex justify-between my-6 mt-20'>
             <FaFacebook className='icon' />
             <FaYoutube className='icon' />
             <FaPinterest className='icon' />

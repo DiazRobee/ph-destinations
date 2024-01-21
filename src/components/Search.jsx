@@ -4,20 +4,12 @@ import { MdOutlineTravelExplore } from 'react-icons/md';
 
 const Search = () => {
   return (
-    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16'>
+    <div name='book' className='max-w-[1240px] min-h-[800px] mb-[500px] sm:mb-[350px] md:mb-[200px] lg:mb-auto h-screen mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16'>
       <div className='lg:col-span-2 flex flex-col justify-evenly'>
         <div>
-          <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
+          <h2>LUXURY INCLUDED VACATIONS FOR YOU AND YOUR FAMILY</h2>
           <p className='py-4'>
-            Come experience the very pinnacle of luxury Caribbean all-inclusive
-            vacations for couples at BEACHES Resorts. Our luxury beach resorts,
-            set along the most gorgeous tropical settings and exquisite beaches
-            in Saint Lucia, Jamaica, Antigua, The Bahamas, Grenada, Barbados and
-            Curaçao, feature unlimited gourmet dining, unique bars serving
-            premium liquors and wines, and every land and water sport, including
-            complimentary green fees at our golf resorts and certified scuba
-            diving at most resorts. If you are planning a wedding, BEACHES is
-            the leader in Caribbean destination weddings and honeymoon packages.
+          We specialize in once in a lifetime trips, giving you that off-the-beaten track adventure you’ve been searching for. We’ve explored high and low to find unique activities in each of our hand picked destinations. What you see on your itinerary is what you get; our tours are full of inclusions (no sneaky hidden costs!) so you won’t find yourself putting your hand in your pocket every time you want to participate. Spend your days making the most of every minute; we’ll take care of the rest!
           </p>
         </div>
         <div className='grid sm:grid-cols-2 gap-8 py-4'>
@@ -27,7 +19,7 @@ const Search = () => {
             </button>
             <div>
                 <h3 className='py-2'>LEADING SERVICE</h3>
-                <p className='py-1'>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW</p>
+                <p className='py-1 px-8 text-justify' >Top-tier customer service. We’ll provide you with a stress-free experience throughout whole trip.</p>
             </div>
           </div>
           <div className='flex flex-col lg:flex-row items-center text-center'>
@@ -35,8 +27,8 @@ const Search = () => {
               <MdOutlineTravelExplore size={50} />
             </button>
             <div>
-                <h3 className='py-2'>LEADING SERVICE</h3>
-                <p className='py-1'>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW</p>
+                <h3 className='py-2'>AWARD WINNING TOURS</h3>
+                <p className='py-1 px-8 text-justify'>In 2019 our Philippines tour won Asia Tour of the Year, something which we are immensely proud of!</p>
             </div>
           </div>
         </div>
@@ -50,13 +42,15 @@ const Search = () => {
           </div>
           <form className='w-full'>
               <div className='flex flex-col my-2'>
-                  <label>Destination</label>
+                  <label>Select Tour</label>
                   <select className='border rounded-md p-2'>
                     {/* should change options */}
-                      <option>Grande Antigua</option>
-                      <option>Key West</option>
-                      <option>Maldives</option>
-                      <option>Cozumel</option>
+                      <option>Coron</option>
+                      <option>Cebu and Boracay</option>
+                      <option>El Nido</option>
+                      <option>Siargao</option>
+                      <option>Northern Luzon</option>
+                      <option>Puerto Princesa</option>
                   </select>
               </div>
               <div className='flex flex-col my-4'>
