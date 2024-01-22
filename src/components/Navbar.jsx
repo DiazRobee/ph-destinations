@@ -28,17 +28,17 @@ const Navbar = () => {
           </Link>
       </div>
       <ul className='hidden md:flex '>
-        <li>
+        <li className= 'cursor-pointer'>
           <Link to="home" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
                   Home
           </Link>
-        </li>
-        <li>
+        </li >
+        <li className= 'cursor-pointer'>
           <Link to="selects" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
                   Destinations
             </Link>
         </li>
-        <li>
+        <li className= 'cursor-pointer'>
           <Link to="book" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
                 Book
           </Link>
@@ -57,17 +57,17 @@ const Navbar = () => {
       <div onClick={handleNav} className={nav ? 'absolute md:hidden text-black left-0 top-0 w-full h-screen bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <h1>PH Tours</h1>
         <ul className='my-10'>
-          <li className='border-b'>
+          <li className='border-b cursor-pointer'>
             <Link to="home" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
                     Home
             </Link>
           </li>
-          <li className='border-b'>
+          <li className='border-b cursor-pointer'>
           <Link to="selects" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
                   Destinations
           </Link>
           </li>
-          <li className='border-b'>
+          <li className='border-b cursor-pointer'>
           <Link to="book" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-400 before:scale-x-0 before:bg-[#164e63] before:absolute before:left-0 before:bottom-0 pb-1'>
                 Book
           </Link>
