@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ph-destinations/static/css/main.1466fcfa.css",
+    "main.js": "/ph-destinations/static/js/main.6b1e6f54.js",
+    "static/media/ph.mp4": "/ph-destinations/static/media/ph.848b552f008e08a4f5b1.mp4",
+    "static/media/coron.jpg": "/ph-destinations/static/media/coron.08982f8651d9900bfce2.jpg",
+    "static/media/boracay.jpg": "/ph-destinations/static/media/boracay.78ab7cb9f68f7ea06741.jpg",
+    "static/media/elnido.jpg": "/ph-destinations/static/media/elnido.e736482aa8eef91bb4e6.jpg",
+    "static/media/kawasanfallscebu.jpg": "/ph-destinations/static/media/kawasanfallscebu.0aff64e1082f99e9f979.jpg",
+    "static/media/elnido2.jpg": "/ph-destinations/static/media/elnido2.765c1038eb409e095591.jpg",
+    "static/media/siargao.jpg": "/ph-destinations/static/media/siargao.9254aff3631681368aff.jpg",
+    "static/media/riceterraces.jpg": "/ph-destinations/static/media/riceterraces.dffa21cebfc4c922e901.jpg",
+    "static/media/coron2.jpg": "/ph-destinations/static/media/coron2.11614444d95a10934bf6.jpg",
+    "static/media/tubbatahareef.jpg": "/ph-destinations/static/media/tubbatahareef.42526469818cb3021088.jpg",
+    "static/media/phMap.webp": "/ph-destinations/static/media/phMap.cc79f7537ced9e234459.webp",
+    "index.html": "/ph-destinations/index.html",
+    "main.1466fcfa.css.map": "/ph-destinations/static/css/main.1466fcfa.css.map",
+    "main.6b1e6f54.js.map": "/ph-destinations/static/js/main.6b1e6f54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1466fcfa.css",
+    "static/js/main.6b1e6f54.js"
+  ]
+}
