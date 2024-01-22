@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className='flex w-full fixed justify-between items-center h-20 px-4 z-10 text-gray-100 bg-teal-500'>
       <div>
         <Link to="home" smooth={true} duration={500} activeClass='active' spy='true'>
-          <h1>PH Tours</h1>
+          <h1 className= 'cursor-pointer' >PH Tours</h1>
           </Link>
       </div>
       <ul className='hidden md:flex '>
