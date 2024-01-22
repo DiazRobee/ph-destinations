@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ph-destinations/static/css/main.1466fcfa.css",
-    "main.js": "/ph-destinations/static/js/main.6b1e6f54.js",
+    "main.js": "/ph-destinations/static/js/main.5ac1845c.js",
     "static/media/ph.mp4": "/ph-destinations/static/media/ph.848b552f008e08a4f5b1.mp4",
     "static/media/coron.jpg": "/ph-destinations/static/media/coron.08982f8651d9900bfce2.jpg",
     "static/media/boracay.jpg": "/ph-destinations/static/media/boracay.78ab7cb9f68f7ea06741.jpg",
@@ -15,10 +15,10 @@
     "static/media/phMap.webp": "/ph-destinations/static/media/phMap.cc79f7537ced9e234459.webp",
     "index.html": "/ph-destinations/index.html",
     "main.1466fcfa.css.map": "/ph-destinations/static/css/main.1466fcfa.css.map",
-    "main.6b1e6f54.js.map": "/ph-destinations/static/js/main.6b1e6f54.js.map"
+    "main.5ac1845c.js.map": "/ph-destinations/static/js/main.5ac1845c.js.map"
   },
   "entrypoints": [
     "static/css/main.1466fcfa.css",
-    "static/js/main.6b1e6f54.js"
+    "static/js/main.5ac1845c.js"
   ]
 }
